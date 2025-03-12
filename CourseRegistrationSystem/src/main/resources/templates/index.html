@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Course Registration</title>
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+
+<h1 th:text="${message}">Welcome to the Course Registration System</h1>
+
+<nav>
+  <a th:href="@{/students}">Student Dashboard</a> |
+  <a th:href="@{/courses}">Course List</a> |
+  <a th:href="@{/registrations}">Registrations</a> |
+  <a th:href="@{/logout}">Logout</a>
+
+</nav>
+
+</body>
+</html>
