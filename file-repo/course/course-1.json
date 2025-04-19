@@ -1,0 +1,10 @@
+{
+  "id" : 1,
+  "courseName" : "Web Programming and framework 1",
+  "courseDescription" : "This course will be covering backend Technologies such as Node, Express, Mongo ",
+  "duration" : 120,
+  "price" : 2000,
+  "rating" : 4.5,
+  "trainer" : "Sahdad",
+  "enrolled" : false
+}

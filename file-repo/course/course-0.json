@@ -1,0 +1,10 @@
+{
+  "id" : 0,
+  "courseName" : "J2EE Business Components",
+  "courseDescription" : "J2EE",
+  "duration" : 4,
+  "price" : 2000,
+  "rating" : 5.0,
+  "trainer" : "Muhammad Rehman",
+  "enrolled" : false
+}

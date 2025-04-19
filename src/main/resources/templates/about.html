@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+  <meta charset="UTF-8"/>
+  <title>this is a home page</title>
+</head>
+<body>
+<section>
+<div class="relative"><div th:style="'    padding-left: 1rem;
+    padding-right: 1rem;    grid-template-columns: repeat(2,minmax(0,1fr));margin-top: 2.5rem;
+    margin-bottom: 2.5rem;'"
+        class="mx-auto my-10 grid min-h-[564px] max-w-maxScreen px-paddingXforMob md:grid-cols-2 md:px-4">
+  <img th:style="'max-width: 100%; place-self: center;object-fit: cover;  height: 564px;    width: 660px;border-radius: 1.5rem;'" src="/image/banner.webp" alt="img" class="-pt-1 mx-auto h-[80vw] w-[80vw] place-self-center rounded-full object-cover object-top sm:h-[500px] sm:w-full sm:rounded-3xl md:w-[660px] lg:h-[564px]">
+  <div th:style="'      padding-top: 2.5rem;
+    padding-bottom: 2.5rem;    gap: 1rem;    flex-direction: column;    display: flex;  padding-right: 5rem;    padding-left: 5rem;align-items: flex-start;'" class="flex flex-col items-center justify-center gap-4 px-4 py-10 md:items-start md:px-12 lg:px-20">
+    <p th:style="'        margin: 0;font-size: 42px;    font-weight: 700;--tw-text-opacity: 1;
+    color: rgb(1 18 41/var(--tw-text-opacity));'" class="section_heading text-headText">
+      About us</p><p th:style="' --tw-text-opacity: 1;
+    color: rgb(119 124 133/var(--tw-text-opacity));
+}  text-align: start;font-size: 1.25rem;
+    line-height: 1.75rem;'" class="section_subheading text-center md:text-start text-subText ">Hello! Welcome to
+    <span th:style="'    font-size: 1.25rem;
+    line-height: 1.75rem;  text-align: start;font-weight: bold;'" class="font-medium">Solution Shapers </span>
+    ! Really happy to see you here.</p>
+    <p th:style="'    text-align: start;    font-size: 1.125rem;
+    line-height: 1.75rem;    --tw-text-opacity: 1;
+    color: rgb(166 166 166/var(--tw-text-opacity));'" class="content_text text-justify md:text-start text-grey100">
+
+
+
+      <p>
+        We are a team of passionate tech enthusiasts and innovators committed to reshaping the way students access and engage with learning.
+        At Solution Shapers, we believe that education should be accessible, flexible, and tailored to individual growth.
+        That’s why we’re building a dynamic new platform where students can discover, subscribe to, and learn from a wide range of courses across various domains.
+      </p>
+
+      <p>
+        Whether you're looking to master a new skill, prepare for a career, or explore a personal interest, our platform is designed to support every learner’s journey.
+        With a clean user interface, seamless subscription process, and a constantly growing library of curated content, we’re here to make quality learning more reachable than ever.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        To create a student-centric learning hub that bridges the gap between curiosity and knowledge, helping learners gain practical skills and achieve their goals.
+      </p>
+
+      <h2>Our Vision</h2>
+      <p>
+        To be a go-to platform for students worldwide—where knowledge meets convenience, and learning becomes a lifestyle.
+      </p>
+
+      <p>
+        As <strong>Solution Shapers</strong>, we’re not just building a product—we’re shaping the future of learning.
+      </p>
+
+
+    </p>
+  </div>
+</div>
+</div>
+
+</section>
+</body>
+</html>
